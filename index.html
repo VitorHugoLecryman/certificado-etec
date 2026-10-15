@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diploma Técnico em Desenvolvimento de Sistemas</title>
+  <meta name="description" content="Diploma de Técnico em Desenvolvimento de Sistemas – Etec Doutora Ruth Cardoso (Centro Paula Souza), concluído em 2021.">
+  <style>
+    :root {
+      --bg: #f4f4f2;
+      --surface: #ffffff;
+      --text: #1d1d1f;
+      --muted: #5f5f66;
+      --accent: #8b1d24;
+      --border: #e2e2e0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141416;
+        --surface: #1e1e21;
+        --text: #ececee;
+        --muted: #a1a1a8;
+        --accent: #e0636b;
+        --border: #2e2e33;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+    }
+    main { max-width: 960px; margin: 0 auto; padding: 40px 16px 64px; }
+    header { margin-bottom: 32px; }
+    .eyebrow { color: var(--accent); font-weight: 600; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 8px; }
+    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.2; margin: 0 0 12px; }
+    dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 0; color: var(--muted); }
+    dt { font-weight: 600; color: var(--text); }
+    dd { margin: 0; }
+    figure { margin: 0 0 32px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+    figure a { display: block; }
+    figure img { display: block; width: 100%; height: auto; border-radius: 6px; }
+    figcaption { color: var(--muted); font-size: 0.9rem; padding: 10px 4px 2px; }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: 0.9rem; border-top: 1px solid var(--border); padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Diploma</p>
+      <h1>Técnico em Desenvolvimento de Sistemas</h1>
+      <dl>
+        <dt>Titular</dt><dd>Vitor Hugo de Souza Lima Dantas Tavares</dd>
+        <dt>Instituição</dt><dd>Etec Doutora Ruth Cardoso – Centro Paula Souza</dd>
+        <dt>Eixo</dt><dd>Informação e Comunicação</dd>
+        <dt>Conclusão</dt><dd>2021 · 1.500 h de curso + 120 h de TCC</dd>
+      </dl>
+    </header>
+
+    <figure>
+      <a href="Etec_Certificado_Frente.jpeg"><img src="Etec_Certificado_Frente.jpeg" alt="Frente do diploma de Técnico em Desenvolvimento de Sistemas"></a>
+      <figcaption>Frente</figcaption>
+    </figure>
+
+    <figure>
+      <a href="Etec_Certificado_Verso.jpeg"><img src="Etec_Certificado_Verso.jpeg" alt="Verso do diploma com componentes curriculares e carga horária"></a>
+      <figcaption>Verso – componentes curriculares</figcaption>
+    </figure>
+
+    <footer>
+      Registro SED SC nº 02290540930 · Consulta pública:
+      <a href="https://concluintes.educacao.sp.gov.br/publica/consultapublica/search">concluintes.educacao.sp.gov.br</a>
+    </footer>
+  </main>
+</body>
+</html>
